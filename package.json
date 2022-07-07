@@ -1,0 +1,25 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Main.js",
+  "scripts": {
+    "start": "node Main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "module-alias": "^2.2.2",
+    "nodemailer": "^6.7.6",
+    "telebot": "^1.4.1"
+  },
+  "_moduleAliases": {
+    "@mod": "./modules",
+    "@utils": "./utils"
+  },
+      "engines": {
+      "node": ">=0.10.3 <15"
+    }
+}
